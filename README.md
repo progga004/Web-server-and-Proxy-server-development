@@ -23,7 +23,6 @@ Instructions on How to Run the Programs:
    ```
 6. The HTTP server will start listening on port 12000. Files can be accessed by navigating to http://localhost:12000/HelloWorld.html in a browser if it's from the same machine, or replace localhost with the IP address of the computer if it's running on another machine.
 ---------------------------------------------------------
-Webpages That the Code Successfully Works For:
 
 The proxy server and web server codes have been successfully tested with static HTML pages, JPEG images, text files and the pages that has been given in assignment part. Specific examples for webserver code include serving a basic HelloWorld.html page and displaying JPEG and text files directly in the browser. These tests were conducted using the Safari browser.
 
