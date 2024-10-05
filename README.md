@@ -4,14 +4,16 @@ No external libraries are used. Both servers program rely solely on Python's sta
 ------------------------------------------
 Instructions on How to Run the Programs:
 
-proxyserver.py
+<b>proxyserver.py</b>
 1. Open a terminal or command prompt.
 2. Navigate to the directory containing proxy_server.py.
 3. Run the proxy server with the following command:
+  ```
     python proxyserver.py
-4. The proxy server will start listening on port 8888. Webpages can be requested using http://localhost:8888/www.google.com if it's from the same machine, or replace localhost with the IP address of the computer if it's running on another machine.
+```
+5. The proxy server will start listening on port 8888. Webpages can be requested using http://localhost:8888/www.google.com if it's from the same machine, or replace localhost with the IP address of the computer if it's running on another machine.
 
-webserver.py
+<b>webserver.py</b>
 1. Place some HTML, text, JPEG, or PNG files in the same directory containing webserver.py.
 2. Open a terminal or command prompt.
 3. Navigate to the directory containing webserver.py.
