@@ -1,4 +1,4 @@
-External Libraries Used:
+<b><h1>External Libraries Used</h1></b>:
 -----------------------------------------
 No external libraries are used. Both servers program rely solely on Python's standard library modules, such as socket, concurrent.futures, hashlib, time and os.
 ------------------------------------------
@@ -8,7 +8,7 @@ proxyserver.py
 1. Open a terminal or command prompt.
 2. Navigate to the directory containing proxy_server.py.
 3. Run the proxy server with the following command:
-    python proxyserver.py
+   ``` python proxyserver.py ```
 4. The proxy server will start listening on port 8888. Webpages can be requested using http://localhost:8888/www.google.com if it's from the same machine, or replace localhost with the IP address of the computer if it's running on another machine.
 
 webserver.py
