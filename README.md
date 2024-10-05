@@ -17,9 +17,11 @@ Instructions on How to Run the Programs:
 1. Place some HTML, text, JPEG, or PNG files in the same directory containing webserver.py.
 2. Open a terminal or command prompt.
 3. Navigate to the directory containing webserver.py.
-4. Run the HTTP server with the following command:       
+4. Run the HTTP server with the following command:
+   ```     
         python webserver.py
-5. The HTTP server will start listening on port 12000. Files can be accessed by navigating to http://localhost:12000/HelloWorld.html in a browser if it's from the same machine, or replace localhost with the IP address of the computer if it's running on another machine.
+   ```
+6. The HTTP server will start listening on port 12000. Files can be accessed by navigating to http://localhost:12000/HelloWorld.html in a browser if it's from the same machine, or replace localhost with the IP address of the computer if it's running on another machine.
 ---------------------------------------------------------
 Webpages That the Code Successfully Works For:
 
